@@ -159,4 +159,5 @@ app.get("/api/adl-events", (req, res) => {
   res.status(200).json({});
 });
 
+console.log("listenintg on port 3000");
 app.listen(3000);
